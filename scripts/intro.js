@@ -1,3 +1,20 @@
-console.log("Hi");
-let result=prompt("What is the name of OS and Which Version it is");
-console.log(`The OS name is ${result.split(" ",1)} and Version is ${result.split(" ",3).}`);
+let marks=Number(prompt("Enter the Marks?"));
+console.log(marks)
+let grade
+if (marks>75) { grade='a';
+    
+} else (marks>=50) 
+{ grade='b';
+}
+switch (true) {
+    case (marks>75):
+        console.log(`Marks are ${marks} and grade is ${ grade}`);
+        break;
+    case (marks>=50):
+        console.log(`Marks are ${marks} and grade is ${grade}`);
+        break;
+
+    default:
+        console.log(" PASS ")
+        break;
+}
