@@ -1,13 +1,3 @@
-console.log("hi");
-function evenodd()
-{
-let num=prompt("Enter a number");
-if (num%2==0) {
-    console.log(`It is even NUmber`);
-    
-} else {
-    console.log(`The number entered is ${num} and it is Odd` );
-    
-}    
-}
-evenodd();
+console.log("Hi");
+let result=prompt("What is the name of OS and Which Version it is");
+console.log(`The OS name is ${result.split(" ",1)} and Version is ${result.split(" ",3).}`);
